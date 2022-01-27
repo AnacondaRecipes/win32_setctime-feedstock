@@ -19,14 +19,18 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python
     - setuptools
   run:
     - python >=3.5
 
 test:
+  requires:
+    - pip
   imports:
     - win32_setctime
+  commands:
+    - pip check
 
 about:
   home: https://github.com/Delgan/win32-setctime
