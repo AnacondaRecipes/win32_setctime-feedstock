@@ -38,6 +38,7 @@ about:
   license_family: MIT
   license_file: LICENSE
   summary: A small Python utility to set file creation time on Windows
+  doc_url: https://github.com/Delgan/win32-setctime
 
 extra:
   recipe-maintainers:
